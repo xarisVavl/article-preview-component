@@ -71,7 +71,7 @@ document.querySelector('.js-share-button').addEventListener('touchstart', () => 
 let isTapped = 'false'
 
 
-document.querySelector('.js-share-button').addEventListener('click', () => {
+document.querySelector('.js-share-button').addEventListener('mouseover', () => {
 
   if(isTapped === 'false') {
   document.querySelector('.popup').innerHTML = deskoptHtml; 
